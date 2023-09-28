@@ -1,15 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/a5d7d50019.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    },
+
+                    fontFamily: {
+                        custom: ['Style Script', 'cursive'], // Use the actual font name here
+                    },
+                }
+            }
+        }
+    </script>
 </head>
-<body>
-    <header></header>
+
+<body class="max-w-7xl mx-auto bg-white ">
+    <header>
+        <nav class="flex justify-between p-8 border items-center">
+            <div>
+                <a  href="">
+                    <h2 class="text-[#000000] font-custom text-3xl">ChocoLux</h2>
+                </a>
+            </div>
+            <div >
+                <ul class="flex gap-4">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CHOCOLATES</a></li>
+                    <li><a href="">TESTIMONIAL</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                    <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <main></main>
 
     <footer></footer>
 </body>
+
 </html>
