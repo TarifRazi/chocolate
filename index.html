@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.8.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <script src="https://kit.fontawesome.com/a5d7d50019.js" crossorigin="anonymous"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,16 +34,16 @@
     </script>
 </head>
 
-<body class="max-w-7xl mx-auto bg-white ">
+<body class="max- w-7xl mx-auto bg-white ">
     <header>
         <nav class="flex justify-between p-8 border items-center">
             <div>
-                <a  href="">
-                    <h2 class="text-[#000000] font-custom text-3xl">ChocoLux</h2>
+                <a href="">
+                    <h2 class="text-[#000000] font-custom text-3xl font-bold text-4xl p-4">ChocoLux</h2>
                 </a>
             </div>
-            <div >
-                <ul class="flex gap-4">
+            <div>
+                <ul class="flex gap-10">
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
                     <li><a href="">CHOCOLATES</a></li>
@@ -48,13 +51,118 @@
                     <li><a href="">CONTACT US</a></li>
                     <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
                     <li><a href=""><i class="fa-solid fa-user"></i></a></li>
-                    
+
                 </ul>
             </div>
         </nav>
     </header>
 
-    <main></main>
+    <main>
+        <section>
+            <div class="carousel w-full bg-[url('images/slider-bg1.png')] bg-contain bg-no-repeat">
+                <div id="slide1" class="carousel-item relative w-full ">
+                    <div class="flex flex-row justify-between w-full items-center">
+                        <div>
+                            <h2 class="flex flex-col text-white gap-14 m-28 font-bold">
+                                <span class="text-5xl font-custom">
+                                    Chocolate
+                                </span>
+                                <span class="text-8xl font-custom">
+                                    Yummy
+                                </span>
+                                <span class="text-xl font-custom">
+                                    Read More →
+                                </span>
+                            </h2>
+                        </div>
+                        <div>
+                            <img src="images/slider-img.png" alt="">
+                        </div>
+                    </div>
+                    <!-- <img src="images/slider-bg1.png" class="w-full" /> -->
+                    <div class="absolute  transform flex flex-col   w-16 gap-4 -translate-y-1/2 left-0 right-5 top-1/2">
+                        <a href="#slide4" class="font-bold text-4xl p-4 bg-white">←</a>
+                        <a href="#slide2" class="font-bold text-4xl p-4 bg-white">→</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <div class="flex flex-row justify-between w-full items-center">
+                        <div>
+                            <h2 class="flex flex-col text-white gap-14 m-28 font-bold">
+                                <span class="text-5xl font-custom">
+                                    Chocolate
+                                </span>
+                                <span class="text-8xl font-custom">
+                                    Yummy
+                                </span>
+                                <span class="text-xl font-custom">
+                                    Read More →
+                                </span>
+                            </h2>
+                        </div>
+                        <div>
+                            <img src="images/slider-img.png" alt="">
+                        </div>
+                    </div>
+                    <div
+                        class="absolute  transform flex flex-col    w-16 gap-4 -translate-y-1/2 left-0 right-5 top-1/2">
+                        <a href="#slide1" class="font-bold text-4xl p-4 bg-white">←</a>
+                        <a href="#slide3" class="font-bold text-4xl p-4 bg-white">→</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <div class="flex flex-row justify-between w-full items-center">
+                        <div>
+                            <h2 class="flex flex-col text-white gap-14 m-28 font-bold">
+                                <span class="text-5xl font-custom">
+                                    Chocolate
+                                </span>
+                                <span class="text-8xl font-custom">
+                                    Yummy
+                                </span>
+                                <span class="text-xl font-custom">
+                                    Read More →
+                                </span>
+                            </h2>
+                        </div>
+                        <div>
+                            <img src="images/slider-img.png" alt="">
+                        </div>
+                    </div>
+                    <div
+                        class="absolute  transform flex flex-col    w-16 gap-4 -translate-y-1/2 left-0 right-5 top-1/2">
+                        <a href="#slide2" class="font-bold text-4xl p-4 bg-white">←</a>
+                        <a href="#slide4" class="font-bold text-4xl p-4 bg-white">→</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <div class="flex flex-row justify-between w-full items-center">
+                        <div>
+                            <h2 class="flex flex-col text-white gap-14 m-28 font-bold">
+                                <span class="text-5xl font-custom">
+                                    Chocolate
+                                </span>
+                                <span class="text-8xl font-custom">
+                                    Yummy
+                                </span>
+                                <span class="text-xl font-custom">
+                                    Read More →
+                                </span>
+                            </h2>
+                        </div>
+                        <div>
+                            <img src="images/slider-img.png" alt="">
+                        </div>
+                    </div>
+                    <div
+                        class="absolute  transform flex flex-col    w-16 gap-4 -translate-y-1/2 left-0 right-5 top-1/2">
+                        <a href="#slide3" class="font-bold text-4xl p-4 bg-white">←</a>
+                        <a href="#slide1" class="font-bold text-4xl p-4 bg-white">→</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer></footer>
 </body>
