@@ -34,16 +34,16 @@
     </script>
 </head>
 
-<body class="max- w-7xl mx-auto bg-white m-11">
+<body class="max- w-7xl mx-auto bg-white">
     <header>
-        <nav class="flex justify-between p-8 border items-center">
+        <nav class="flex justify-between p-8  items-center">
             <div>
                 <a href="">
                     <h2 class="text-[#000000] font-custom text-3xl font-bold text-4xl p-4">ChocoLux</h2>
                 </a>
             </div>
             <div>
-                <ul class="flex gap-10">
+                <ul class="flex gap-10 text-black">
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
                     <li><a href="">CHOCOLATES</a></li>
@@ -52,6 +52,25 @@
                     <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
                     <li><a href=""><i class="fa-solid fa-user"></i></a></li>
 
+                </ul>
+                <ul class="menu menu-horizontal ">
+
+                    <li>
+                        <details>
+                            <summary>
+                                <i class="fa-solid fa-bars text-[#46200b] text-2xl"></i>
+                            </summary>
+                            <ul class="items-center text-black bg-white text-center ">
+                                <li><a href="">HOME</a></li>
+                                <li><a href="">ABOUT</a></li>
+                                <li><a href="">CHOCOLATES</a></li>
+                                <li><a href="">TESTIMONIAL</a></li>
+                                <li><a href="">CONTACT US</a></li>
+                                <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-user"></i></a></li>
+                            </ul>
+                        </details>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -399,23 +418,69 @@
 
     </main>
 
-    <footer class="bg-black p-11">
-        <div>
-            <div class="flex flex-row justify-between items-center">
+    <footer class="text-center">
+        <div class="bg-black p-11">
+            <div class="flex flex-row justify-between items-center mb-11">
                 <div class="flex flex-row gap-0 w-3/4">
                     <input class="w-full py-3 pl-6 bg-white" type="email" placeholder="Enter your email
                     ">
-                    <button class="btn rounded-none bg-[#a04120] text-white hover:text-[#a04120] border-[#a04120] hover:border-[#a04120]">
-                        <i class="fa-solid fa-arrow-right  " ></i>
+                    <button
+                        class="btn rounded-none bg-[#a04120] text-white hover:text-[#a04120] border-[#a04120] hover:border-[#a04120]">
+                        <i class="fa-solid fa-arrow-right  "></i>
                     </button>
                 </div>
                 <div>
-                    <a class="border p-3 border-white" href=""><i class="fa-brands p-3 fa-facebook-f text-white"></i></a>
-                    <a class="border p-3 border-white" href=""><i class="fa-brands p-3 fa-twitter text-white"></i></i></a>
-                    <a class="border p-3 border-white" href=""><i class="fa-brands p-3 fa-linkedin-in text-white"></i></i></a>
+                    <a class="border p-3 border-white" href=""><i
+                            class="fa-brands p-3 fa-facebook-f text-white"></i></a>
+                    <a class="border p-3 border-white" href=""><i
+                            class="fa-brands p-3 fa-twitter text-white"></i></i></a>
+                    <a class="border p-3 border-white" href=""><i
+                            class="fa-brands p-3 fa-linkedin-in text-white"></i></i></a>
+                </div>
+            </div>
+            <div class="flex gap-5">
+                <div class="w-1/4 ">
+                    <h2 class="font-custom text-2xl mb-4 text-white">Menu</h2>
+                    <ul class="flex flex-col ">
+                        <li><a class="mb-3 text-white" href="">HOME</a></li>
+                        <li><a class="mb-3 text-white" href="">ABOUT</a></li>
+                        <li><a class="mb-3 text-white" href="">CHOCOLATES</a></li>
+                        <li><a class="mb-3 text-white" href="">TESTIMONIAL</a></li>
+                        <li><a class="mb-3 text-white" href="">CONTACT US</a></li>
+
+                    </ul>
+                </div>
+                <div class="w-1/4 text-white">
+                    <h2 class="font-custom text-2xl mb-4">Instagram</h2>
+                    <div class="flex flex-row gap-2 items-center mb-4">
+                        <img class="bg-white p-3 pt-4" src="images/insta-img.png" alt="">
+                        <p>long established fact that a reader</p>
+                    </div>
+                    <div class="flex flex-row gap-2 items-center">
+                        <img class="bg-white p-3 pt-4" src="images/insta-img.png" alt="">
+                        <p>long established fact that a reader</p>
+                    </div>
+                </div>
+                <div class="w-1/4 text-white">
+                    <h2 class="font-custom text-2xl mb-4">Company</h2>
+                    <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution of letters, as opposed to</p>
+
+                </div>
+                <div class="w-1/4">
+                    <h2 class="font-custom text-2xl mb-4 text-white">Contact Us</h2>
+                    <div class="flex flex-col">
+                        <a class="flex flex-row gap-2 mb-3 text-white" href=""><i
+                                class="fa-solid fa-location-dot text-white"></i> Location</a>
+                        <a class="flex flex-row gap-2 mb-3 text-white" href=""><i
+                                class="fa-solid fa-phone text-white"></i> Call +01 1234567890</a>
+                        <a class="flex flex-row gap-2 mb-3 text-white" href=""><i
+                                class="fa-solid fa-envelope text-white"></i> demo@gmail.com</a>
+                    </div>
                 </div>
             </div>
         </div>
+        <p class="text-center text-black py-6">© 2023 All Rights Reserved By Free Html Templates</p>
     </footer>
 </body>
 
